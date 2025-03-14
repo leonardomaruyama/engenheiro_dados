@@ -27,8 +27,8 @@ Este projeto realiza a movimentação e processamento de dados em um pipeline en
 Na pasta src contém os scripts usado para transferência dos dados
 
 - **raw_pipeline.ipynb**: transfere os dados do diretório `data` (origem), para diretório `raw`.
-- **curated_**: transfere os dados do diretório `raw` para diretório `curated`.
-- **modeled_**: transfere os dados do diretório `curated` para diretório `modeled`, gravados em arquivo excel para serem utilizado no Power BI.
+- **curated_*.ipynb**: transfere os dados do diretório `raw` para diretório `curated`.
+- **modeled_*.ipynb**: transfere os dados do diretório `curated` para diretório `modeled`, gravados em arquivo excel para serem utilizado no Power BI.
 
 ## Objetivo Final
 
