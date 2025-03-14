@@ -23,6 +23,13 @@ Este projeto realiza a movimentação e processamento de dados em um pipeline en
 4. **Modelagem e Preparação para Análise**:
    Finalmente, os dados no diretório `curated` são preparados para uso em ferramentas como o **Power BI**. As agregações e transformações necessárias são realizadas e os dados finais são salvos no diretório `modeled`.
 
+## Script de cargas
+Na pasta src contém os scripts usado para transferência dos dados
+
+- **raw_pipeline.ipynb**: transfere os dados do diretório `data` (origem), para diretório `raw`.
+- **curated_**: transfere os dados do diretório `raw` para diretório `curated`.
+- **modeled_**: transfere os dados do diretório `curated` para diretório `modeled`, gravados em arquivo excel para serem utilizado no Power BI.
+
 ## Objetivo Final
 
 Os dados no diretório `modeled` são prontos para uso em ferramentas de análise como **Power BI**. Essas ferramentas são usadas para gerar relatórios, dashboards e outras visualizações de dados.
